@@ -8,6 +8,6 @@ import (
 
 func RootHandler(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{
-		"message": "hello fucking world",
+		"message": "hello fucking world, by aditya",
 	})
 }
